@@ -46,5 +46,6 @@
 
 ## SOFI3D
 
-Karlsruher Institute fur Technologie 提供的三维正演代码
+Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.de/)中正演（Forward Modeling）代码
+
 
