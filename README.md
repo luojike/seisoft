@@ -16,6 +16,21 @@
 
 [MPI网上教程](http://mpitutorial.com/tutorials/mpi-introduction/zh_cn/)
 
+更多资料可以上[MPI官网](https://www.mpi-forum.org/)查询。
+
+
+## OpenMP教程
+
+多核微处理器推动了多线程并行编程的发展，OpenMP是一种支持多线程编程的指导语句规范，可以通过以下教程来学习。
+
+[OpenMP英文教程](https://computing.llnl.gov/tutorials/openMP/)
+
+[OpenMP官网教程](https://www.openmp.org/wp-content/uploads/omp-hands-on-SC08.pdf)
+
+[OpenMP网上中文教程](https://www.ibm.com/developerworks/cn/aix/library/au-aix-openmp-framework/)
+
+更多资料可以从[OpenMP官网](https://www.openmp.org/)查询。
+
 
 ## CUDA教程
 
