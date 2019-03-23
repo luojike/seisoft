@@ -14,9 +14,13 @@
 安装 Git 和 OpenMPI 。利用Git可以管理我们项目的代码：
 
 > git clone https://github.com/luojike/seisoft.git
+
 > 编辑修改代码文件
+
 > git add <修改过的文件>
+
 > git commit -m "修改的说明"
+
 > git push
 
 可以看[git基本操作](http://www.runoob.com/git/git-basic-operations.html)了解git基本命令。
