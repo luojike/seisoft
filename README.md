@@ -7,12 +7,19 @@
 
 可以参看[这个网上教程](http://www.omegaxyz.com/2018/03/06/linux_ubuntu_c/)了解如何开始在Linux开发C/C++程序。
 
+建议大家安装[Ubuntu 18.04桌面64位版本](https://www.ubuntu.com/download/desktop/thank-you?version=18.04.2&architecture=amd64)。安装之后运行命令：
 
-## 地震波动力学
+> sudo apt-get install git openmpi
 
-可以参看网上这个课件来了解相关知识，以便看懂地震波正演和反演程序中的参数。
+安装 Git 和 OpenMPI 。利用Git可以管理我们项目的代码：
 
-[地震波动力学课件](https://wenku.baidu.com/view/9043cd0bde80d4d8d15a4f19.html?sxts=1553045519101)
+> git clone https://github.com/luojike/seisoft.git
+> 编辑修改代码文件
+> git add <修改过的文件>
+> git commit -m "修改的说明"
+> git push
+
+可以看[git基本操作](http://www.runoob.com/git/git-basic-operations.html)了解git基本命令。
 
 
 ## MPI教程
@@ -22,6 +29,18 @@
 [MPI网上教程](http://mpitutorial.com/tutorials/mpi-introduction/zh_cn/)
 
 更多资料可以上[MPI官网](https://www.mpi-forum.org/)查询。
+
+
+## SOFI3D
+
+Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.de/)中正演（Forward Modeling）代码
+
+
+## 地震波动力学
+
+可以参看网上这个课件来了解相关知识，以便看懂地震波正演和反演程序中的参数。
+
+[地震波动力学课件](https://wenku.baidu.com/view/9043cd0bde80d4d8d15a4f19.html?sxts=1553045519101)
 
 
 ## OpenMP教程
@@ -47,10 +66,5 @@
 
 更多的资料可以从[Nvidia官方CUDA文档网页](https://docs.nvidia.com/cuda/)获取。
 
-
-
-## SOFI3D
-
-Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.de/)中正演（Forward Modeling）代码
 
 
