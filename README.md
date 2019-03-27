@@ -9,7 +9,7 @@
 
 建议大家安装[Ubuntu 18.04桌面64位版本](https://www.ubuntu.com/download/desktop/thank-you?version=18.04.2&architecture=amd64)。安装之后运行命令：
 
-> sudo apt-get install git openmpi
+> sudo apt-get install git libopenmpi-dev
 
 安装 Git 和 OpenMPI 。利用Git可以管理我们项目的代码：
 
