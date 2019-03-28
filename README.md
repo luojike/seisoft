@@ -37,7 +37,9 @@
 
 ## SOFI3D
 
-Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.de/)中正演（Forward Modeling）代码
+Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.de/)中正演（Forward Modeling）代码。
+
+请大家从[官方网页](https://git.scc.kit.edu/GPIAG-Software/SOFI3D/tree/Release)下载。
 
 
 ## 地震波动力学
