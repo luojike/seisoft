@@ -73,4 +73,9 @@ Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.d
 更多的资料可以从[Nvidia官方CUDA文档网页](https://docs.nvidia.com/cuda/)获取。
 
 
+## AMD显卡编程指南
+
+[Vega体系结构](https://rocm-documentation.readthedocs.io/en/latest/GCN_ISA_Manuals/testdocbook.html#testdocbook)
+
+更多的资料可以从[ROCm文档网页](https://rocm-documentation.readthedocs.io/en/latest/)获取。
 
