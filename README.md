@@ -2,6 +2,15 @@
 
 地震勘探并行软件的学习站
 
+## 搭建MPI集群
+
+1. 采用Infiniband或以太网连接各个机器
+2. 在各机器上安装OpenMPI或其它MPI软件
+3. 设置各机器之间ssh免口令输入登录
+4. 设置NFS共享目录，注意目录名要一致
+5. 设置hostfile，其中hostname注意使用各机器本身hostname
+6. 运行mpi程序测试
+
 
 ## Linux下C/C++编程
 
