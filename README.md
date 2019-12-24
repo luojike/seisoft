@@ -2,16 +2,6 @@
 
 地震勘探并行软件的学习站
 
-## 搭建MPI集群
-
-1. 采用Infiniband或以太网连接各个机器
-2. 在各机器上安装OpenMPI或其它MPI软件
-3. 设置各机器之间ssh免口令输入登录
-4. 设置NFS共享目录，注意目录名要一致
-5. 设置hostfile，其中hostname注意使用各机器本身hostname
-6. 运行mpi程序测试
-
-
 ## Linux下C/C++编程
 
 可以参看[这个网上教程](http://www.omegaxyz.com/2018/03/06/linux_ubuntu_c/)了解如何开始在Linux开发C/C++程序。
@@ -44,18 +34,25 @@
 更多资料可以上[MPI官网](https://www.mpi-forum.org/)查询。
 
 
-## SOFI3D
+## 搭建MPI集群
 
-Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.de/)中正演（Forward Modeling）代码。
+1. 采用Infiniband或以太网连接各个机器
+2. 在各机器上安装OpenMPI或其它MPI软件
+3. 设置各机器之间ssh免口令输入登录
+4. 设置NFS共享目录，注意目录名要一致
+5. 设置hostfile，其中hostname注意使用各机器本身hostname
+6. 运行mpi程序测试
 
-请大家从[官方网页](https://git.scc.kit.edu/GPIAG-Software/SOFI3D/tree/Release)下载。
 
+## CUDA教程
 
-## 地震波动力学
+目前大规模并行程序常常使用GPU（图形处理器）进行加速，可以通过以下教程来学习。
 
-可以参看网上这个课件来了解相关知识，以便看懂地震波正演和反演程序中的参数。
+[CUDA网上教程](https://www.jianshu.com/p/191d1e21f7ed)
 
-[地震波动力学课件](https://wenku.baidu.com/view/9043cd0bde80d4d8d15a4f19.html?sxts=1553045519101)
+[CUDA英文教程](http://supercomputingblog.com/cuda-tutorials/)
+
+更多的资料可以从[Nvidia官方CUDA文档网页](https://docs.nvidia.com/cuda/)获取。
 
 
 ## OpenMP教程
@@ -71,20 +68,24 @@ Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.d
 更多资料可以从[OpenMP官网](https://www.openmp.org/)查询。
 
 
-## CUDA教程
-
-目前大规模并行程序常常使用GPU（图形处理器）进行加速，可以通过以下教程来学习。
-
-[CUDA网上教程](https://www.jianshu.com/p/191d1e21f7ed)
-
-[CUDA英文教程](http://supercomputingblog.com/cuda-tutorials/)
-
-更多的资料可以从[Nvidia官方CUDA文档网页](https://docs.nvidia.com/cuda/)获取。
-
-
 ## AMD显卡编程指南
 
 [Vega体系结构](https://rocm-documentation.readthedocs.io/en/latest/GCN_ISA_Manuals/testdocbook.html#testdocbook)
 
 更多的资料可以从[ROCm文档网页](https://rocm-documentation.readthedocs.io/en/latest/)获取。
+
+
+## 地震波动力学
+
+可以参看网上这个课件来了解相关知识，以便看懂地震波正演和反演程序中的参数。
+
+[地震波动力学课件](https://wenku.baidu.com/view/9043cd0bde80d4d8d15a4f19.html?sxts=1553045519101)
+
+
+## SOFI3D
+
+Karlsruher Institute fur Technologie 的[OpenTOAST项目](http://www.opentoast.de/)中正演（Forward Modeling）代码。
+
+请大家从[官方网页](https://git.scc.kit.edu/GPIAG-Software/SOFI3D/tree/Release)下载。
+
 
