@@ -1,6 +1,8 @@
 # Seismic Processing Software
 
-地震勘探并行软件的学习站
+## 地震勘探并行软件的学习站
+
+[SeisMan](https://blog.seisman.info/)
 
 ## Linux下C/C++编程
 
